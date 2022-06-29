@@ -5,6 +5,6 @@ package ci.teste;
 
 public class Library {
     public boolean someLibraryMethod() {
-        return false;
+        return true;
     }
 }
