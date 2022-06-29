@@ -20,6 +20,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+       image: docker://ramideifpe/aula-docker:teste-imagem
 
     steps:
     - uses: actions/checkout@v3
